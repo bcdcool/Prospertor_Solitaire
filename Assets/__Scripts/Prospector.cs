@@ -225,7 +225,7 @@ public class Prospector : MonoBehaviour {
                 tableau.Remove(cd); // Remove it from the tableau List
                 MoveToTarget(cd); // Make it the target card
                 SetTableauFaces(); // Update tableau card face-ups
-                ScoreManager(ScoreEvent.draw);
+                ScoreManager(ScoreEvent.mine);
                 break;
         }
         // Check to see whether the game is over or not
